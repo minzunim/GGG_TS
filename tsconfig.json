@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ES2016",
+    "outDir": "./dist",
+    "moduleResolution": "Node",
+    "lib": ["DOM", "DOM.Iterable"],
+    "moduleDetection": "force"
+  },
+  "include": ["/app.ts", "./controller"],
+  "exclude": ["node_modules"]
+}
